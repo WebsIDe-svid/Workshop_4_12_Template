@@ -73,11 +73,16 @@ main {
     height: 80%;
     aspect-ratio: 1/1;
     border-radius: 3px;
-    background-image: url("../media/dog_1.jpg");
+    background-color: white;
+    
     background-size: 200%;
     background-position: center;
 
     transition: .2s ease;
+}
+
+#img_a {
+    background-image: url("../media/dog_1.jpg");
 }
 
 .img_box:hover {
