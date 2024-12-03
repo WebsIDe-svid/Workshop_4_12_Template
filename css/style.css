@@ -65,13 +65,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
     /* gap: 1vw; */
 }
 
 .img_box {
     height: 80%;
     aspect-ratio: 1/1;
-
+    border-radius: 3px;
     background-image: url("../media/dog_1.jpg");
     background-size: 200%;
     background-position: center;
@@ -91,5 +92,3 @@ img {
     object-fit: cover;
 }
 
-
-xcd
