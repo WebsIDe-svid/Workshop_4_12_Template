@@ -79,14 +79,26 @@ main {
     background-position: center;
 
     transition: .2s ease;
+    
 }
 
 #img_a {
     background-image: url("../media/dog_1.jpg");
 }
 
-.img_box:hover {
+#img_a:hover {
     background-size: 250%;
+    transition: .2s ease;
+}
+
+#img_b:hover {
+    border-radius: 50%;
+    transition: .2s ease;
+}
+
+#img_c:hover {
+    border: 2px red solid;
+    scale:1.5;
     transition: .2s ease;
 }
 
